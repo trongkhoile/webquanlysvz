@@ -1,0 +1,94 @@
+body{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-color: antiquewhite;
+ 
+}
+.td{
+    text-align: center;
+}
+.noidung , .noidung1, .noidung2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.noidung1{
+    margin-left: 5px;
+}
+.noidung2{
+    margin-left: 80px;
+}
+.khung1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1px;
+}
+.khung2{
+    background-color: antiquewhite;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.danhsach{
+    text-align: center;
+}
+.nutbam{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: thistle;
+    font-size: 15px;
+}
+.khung3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.nutxoa,.nutxoa1{
+    display: flex;
+    border-style: solid;
+    background-color: thistle;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+}
+.tensv,.masv,.tuoisv,.id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    width: 100%;
+    height: 70px;
+}
+.ngphattrien{
+    background-color: aqua;
+    text-align: center;
+    border-style: solid;
+}
+@media screen and (max-width: 46.1875em) {
+    .td{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 480px) {
+    .tensv,.masv,.tuoisv,.id{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        width: 100%px;
+        height: 70px;
+    }
+    .nutxoa,.nutxoa1{
+        display: flex;
+        border-style: solid;
+        background-color: thistle;
+        font-family: cursive;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        border-color: black;
+    }
+}
